@@ -15,11 +15,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link href="https://github.com/thoth-tech"
-            className="button button--secondary button--lg"
-            to="/docs/intro">
+          <a href="https://internal-systems.vercel.app/docs">  
+           <button className="button button--secondary button--lg"  >
             Click here for the documentation
-          </Link>
+            </button>
+          </a>       
         </div>
       </div>
     </header>
